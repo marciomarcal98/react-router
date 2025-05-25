@@ -7,6 +7,9 @@ export function Home() {
 
             <nav>
                 <Link to={"/products"}>Produtos</Link>
+
+                {/* useSearchParams */}
+                <Link to={"/products?category=banho"}>Categoria</Link>
             </nav>
         </div>
     )
