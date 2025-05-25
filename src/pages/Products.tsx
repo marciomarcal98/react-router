@@ -15,6 +15,14 @@ export function Products() {
             {category && (
                 <span>Categoria: <strong>{category}</strong></span>
             )}
+
+            <div className="cards">
+                <Link to="/details/1">Produto 1</Link>
+                <Link to="/details/2">Produto 2</Link>
+                <Link to="/details/3">Produto 3</Link>
+                <Link to="/details/4">Produto 4</Link>
+                <Link to="/details/5">Produto 5</Link>
+            </div>
         </div>
     )
 }

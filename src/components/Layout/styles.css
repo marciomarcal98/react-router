@@ -1,0 +1,14 @@
+.user {
+    font-size: 1.6rem;
+    color: #3d3d3d;
+    margin-bottom: 3.2rem;
+}
+
+footer {
+    width: 100%;
+    margin-top: 3.2rem;
+
+    span {
+        font-weight: 400;
+    }
+}

@@ -56,3 +56,30 @@ strong {
     color: #f24d0d;
     text-transform: uppercase;
 }
+
+button {
+    background: #f24d0d;
+    padding: 1.2rem 1.6rem;
+    border-radius: .7rem;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    gap: 1.6rem;
+    margin-block: 1.8rem;
+    flex-wrap: wrap;
+}
+
+.cards a {
+    width: 100px;
+    height: 100px;
+    background: #d7eff9;
+    color: #0095e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+}
